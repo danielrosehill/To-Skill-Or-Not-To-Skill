@@ -45,6 +45,11 @@ A search that returns nothing may be blind rather than conclusive: the wrong ind
 an empty index, or a tool that can't see that namespace. Make sure the search
 actually reaches the library before you trust a miss.
 
+The opposite failure is just as likely. Hybrid and semantic search always return
+*something*, and an unrelated result can score as high as a true match. Describe the
+task in plain words, then decide by reading each result's description. The score
+alone tells you nothing.
+
 If you find a match, **exit: use that skill for the task.** If it needs a small fix
 to fit, fix it in its plugin repo and note that.
 
@@ -67,7 +72,8 @@ personal the workflow is:
    private one. A skill that would only be public after depersonalising can ship
    publicly in a generic form, with the specifics kept in a private sibling.
 2. **Write the skill.** Follow the conventions of the target plugin. Don't invent
-   new ones.
+   new ones. If a skill-extraction skill is available (for example, one that
+   turns the procedure just followed into a `SKILL.md`), use it for the draft.
 3. **Deploy it** the way the user's plugins normally go live, for example push and
    index or sync. Then confirm the skill is actually discoverable.
 4. **Validate it on the real task.** Run the one-off task you were about to do

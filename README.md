@@ -38,6 +38,8 @@ For every task:
 
 A "no" at step 1 or 2 means you just do the task.
 
+The same text is a habit in [Habits-Of-Claude](https://github.com/danielrosehill/Habits-Of-Claude/blob/main/habits/skill-or-not.md), which is its source. Use either one, not both.
+
 The exact text injected into instruction files is in
 [`snippet/heuristic.md`](snippet/heuristic.md). The step-by-step version is in
 [`skills/skill-or-not/SKILL.md`](skills/skill-or-not/SKILL.md).

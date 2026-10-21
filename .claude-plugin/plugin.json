@@ -1,6 +1,6 @@
 {
   "name": "skill-or-not",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Before any task, ask: should this become a skill? A five-step checklist (repeatable, automatable, already ours, already someone else's, else create it), plus an installer that puts the heuristic in your user-level CLAUDE.md / AGENTS.md.",
   "author": {
     "name": "Daniel Rosehill",
